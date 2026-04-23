@@ -1,4 +1,5 @@
 import board
+import busio
 
 # Imports from the kmk library
 from kmk.kmk_keyboard import KMKKeyboard
@@ -7,25 +8,28 @@ from kmk.keys import KC
 from kmk.modules.macros import Press, Release, Tap, Macros
 from kmk.modules.encoder import EncoderHandler
 
-# Main instance of the keyboard
+#For display
+from kmk.extensions.display import Display, TextEntry, ImageEntry
+from kmk.extensions.display.ssd1306 import SSD1306
+
+#Main instance of the keyboard
 keyboard = KMKKeyboard()
 
 encoder_handler = EncoderHandler()
 
-# Add the macro extension
+#Add the macro extension
 macros = Macros()
 keyboard.modules.append(macros)
 keyboard.modules.append(encoder_handler)
 
-# Pins for keys
+#Pins for keys
 PINS = [board.D4, board.D1, board.D5, board.D2, board.D6, board.D3]
 
-#encoder pins - regular direction encoder and a button
+#Encoder pins - regular direction encoder and a button
 encoder_handler.pins = (board.GP17, board.GP15, board.GP14)
 
 
-
-# Tell kmk we are not using a key matrix
+#Tell kmk we are not using a key matrix
 keyboard.matrix = KeysScanner(
     pins=PINS,
     value_when_pressed=False,
@@ -46,7 +50,25 @@ encoder_handler.map = [
     ((zoom_in, zoom_out, KC.NO),)
 ]
 
+#Display time
+logged_keys = []
+max_keys = 8
 
-# Start kmk!
+i2c_bus = busio.I2C(board.GP_SCL, board.GP_SDA)
+
+driver = SSD1306(
+    # Mandatory:
+    i2c = i2c_bus,
+    # Optional:
+    device_address = 0x3C,
+)
+mainDisplay = Display(
+    display = driver,
+    width = 128,
+    height = 64,
+)
+
+
+#Start kmk
 if __name__ == '__main__':
     keyboard.go()
