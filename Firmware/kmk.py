@@ -51,24 +51,40 @@ encoder_handler.map = [
 ]
 
 #Display time
-logged_keys = []
-max_keys = 8
-
 i2c_bus = busio.I2C(board.GP_SCL, board.GP_SDA)
 
 driver = SSD1306(
-    # Mandatory:
     i2c = i2c_bus,
-    # Optional:
     device_address = 0x3C,
 )
+
 mainDisplay = Display(
     display = driver,
     width = 128,
-    height = 64,
+    height = 32,
+    powersave_off_time = 30
 )
 
+mainDisplay.entries = [
+    ImageEntry(image = "FillerImage.jpg", x=0, y=0),
+]
+
+keyboard.extensions.append(mainDisplay)
 
 #Start kmk
 if __name__ == '__main__':
     keyboard.go()
+
+
+# Im gonna work on this later, for now i just want a working script with the basic setup
+
+# logged_keys = []
+# max_keys = 20
+
+# def logKeys(key_input, is_pressed):
+#     print("Working...")
+#     key_name = str(key_input)
+#     logged_keys.append(key_name)
+#     if len(logged_keys) > max_keys:
+#         logged_keys.pop(0)
+#     return key_input
