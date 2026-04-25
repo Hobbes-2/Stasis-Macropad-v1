@@ -3020,7 +3020,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 158.75 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 156.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3124,7 +3124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 186.69 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 184.15 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3317,7 +3317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 158.75 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,7 +3328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 156.21 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3421,7 +3421,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 186.69 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +3432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3764,7 +3764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 158.75 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3775,7 +3775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 186.69 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 184.15 77.47 0)
 			(hide yes)
 			(show_name no)
