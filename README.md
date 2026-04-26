@@ -13,13 +13,12 @@ This project is meant both as a useful tool for me to use (i might try using it 
 <img width="572" height="549" alt="Screenshot_20260422_045616" src="https://github.com/user-attachments/assets/ce6af854-f952-4dcb-b8df-3655c85ffaf1" />
 
 Schematics and layout
-<img width="801" height="747" alt="Screenshot_20260426_073638" src="https://github.com/user-attachments/assets/41b7eb34-df41-4cea-9f26-3c4e7f0ce77e" />
-<img width="897" height="725" alt="Screenshot_20260426_073651" src="https://github.com/user-attachments/assets/20bc1346-0fd1-4718-9b8e-e6a0ebaf10fd" />
-
+<img width="753" height="731" alt="Screenshot_20260422_045628" src="https://github.com/user-attachments/assets/e5d9cc30-3aba-4b55-bddf-f7bedcafc28f" />
+<img width="1150" height="524" alt="Screenshot_20260408_122429" src="https://github.com/user-attachments/assets/e2feafab-5365-4f10-aa40-a9d5405c9b16" />
 
 Case
-<img width="718" height="634" alt="Screenshot_20260410_131247" src="https://github.com/user-attachments/assets/4435f286-1a0f-43cd-9e82-3b5517b1bb25" />
-<img width="877" height="766" alt="Screenshot_20260423_130401" src="https://github.com/user-attachments/assets/d91fae50-c254-4f5c-8e7c-f1df245dec75" />
+<img width="801" height="747" alt="Screenshot_20260426_073638" src="https://github.com/user-attachments/assets/41b7eb34-df41-4cea-9f26-3c4e7f0ce77e" />
+<img width="897" height="725" alt="Screenshot_20260426_073651" src="https://github.com/user-attachments/assets/20bc1346-0fd1-4718-9b8e-e6a0ebaf10fd" />
 
 Keys
 <img width="895" height="693" alt="Screenshot_20260426_073731" src="https://github.com/user-attachments/assets/3f15b144-956f-4065-b044-f676744a2a15" />
