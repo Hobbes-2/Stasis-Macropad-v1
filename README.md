@@ -21,12 +21,12 @@ Case
 <img width="877" height="766" alt="Screenshot_20260423_130401" src="https://github.com/user-attachments/assets/d91fae50-c254-4f5c-8e7c-f1df245dec75" />
 
 BOM
-[MacropadV1_bom.csv](https://github.com/user-attachments/files/27105670/MacropadV1_bom.csv)
-Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
-"PCB","The actual pcb",1,2.00,"","JLCPCB"
-"3d Printed Case & Keys","The case and keys",1,7.00,"","Printing Legion"
-"Cherry MX Switch (MX1A-L1NN)","The keys of this macropad",6,6.00,"https://www.mouser.com/ProductDetail/CHERRY/MX1A-L1NN?qs=F5EMLAvA7IDlALNAurZTXA%3D%3D","Mouser"
-"0.91"" OLED Graphic 128x32","The display of this macropad; im going to try to make it log recent inputs",1,3.90,"https://www.displaymodule.com/products/0-91-inch-oled-graphic-display-128x32-with-i2c","DisplayModule"
-"SEEEDUINO XIAO","The microcontroller of this macropad",1,5.40,"https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010328/11506471","Digikey"
-"1N4148","Preventing ghosting in the keyboard matrix",6,0.60,"https://www.digikey.com/en/products/detail/onsemi/1N4148/458603","Digikey"
-"EC11E15244G1","Changing volume",1,4.63,"https://www.digikey.com/en/products/detail/alps-alpine/EC11E15244G1/21721550","Digikey"
+|Name                        |Purpose                                                                   |Quantity|Total Cost (USD)|Link                                                                                 |Distributor    |
+|----------------------------|--------------------------------------------------------------------------|--------|----------------|-------------------------------------------------------------------------------------|---------------|
+|PCB                         |The actual pcb                                                            |1       |2               |                                                                                     |JLCPCB         |
+|3d Printed Case & Keys      |The case and keys                                                         |1       |7               |                                                                                     |Printing Legion|
+|Cherry MX Switch (MX1A-L1NN)|The keys of this macropad                                                 |6       |6               |https://www.mouser.com/ProductDetail/CHERRY/MX1A-L1NN?qs=F5EMLAvA7IDlALNAurZTXA%3D%3D|Mouser         |
+|0.91" OLED Graphic 128x32   |The display of this macropad; im going to try to make it log recent inputs|1       |3.9             |https://www.displaymodule.com/products/0-91-inch-oled-graphic-display-128x32-with-i2c|DisplayModule  |
+|SEEEDUINO XIAO              |The microcontroller of this macropad                                      |1       |5.4             |https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010328/11506471|Digikey        |
+|1N4148                      |Preventing ghosting in the keyboard matrix                                |6       |0.6             |https://www.digikey.com/en/products/detail/onsemi/1N4148/458603                      |Digikey        |
+|EC11E15244G1                |Changing volume                                                           |1       |4.63            |https://www.digikey.com/en/products/detail/alps-alpine/EC11E15244G1/21721550         |Digikey        |
