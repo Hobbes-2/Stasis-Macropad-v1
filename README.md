@@ -7,7 +7,8 @@ A basic macropad with:
 A rotary encoder switch,
 A OLED display
 
-This project is meant both as a useful tool for me to use (i might try using it for things like tetris or such) and a perfect learning oppertunity. I have never done hardware hackathons/projects before, so this is a really good chance for me to learn. I originally used the hackclub macropad tutorial, and then deviated from it to get to what i have now. (https://hackpad.hackclub.com/guide)
+This project is meant both as a useful tool for me to use (i might try using it for things like tetris or such) and a perfect learning oppertunity. I have never done hardware hackathons/projects before, so this is a really good chance for me to learn. I originally used the hackclub macropad tutorial, and then deviated from it to get to what i have now. (https://hackpad.hackclub.com/guide) 
+The keys are arranged in a matrix, and the display and rotary encoder are wired in seprately (from the matrix). The microcontroller im using ([XIAO-SEEEDUINO](https://wiki.seeedstudio.com/Seeeduino-XIAO/)) has USB-C connection for power. The firmware is written in python with KMK. 
 
 3D render of the pcb
 <img width="572" height="549" alt="Screenshot_20260422_045616" src="https://github.com/user-attachments/assets/ce6af854-f952-4dcb-b8df-3655c85ffaf1" />
@@ -29,7 +30,7 @@ BOM
 |PCB                         |The actual pcb                                                            |1       |2               |                                                                                     |JLCPCB         |
 |3d Printed Case & Keys      |The case and keys                                                         |1       |7               |                                                                                     |Printing Legion|
 |Cherry MX Switch (MX1A-L1NN)|The keys of this macropad                                                 |6       |6               |https://www.mouser.com/ProductDetail/CHERRY/MX1A-L1NN?qs=F5EMLAvA7IDlALNAurZTXA%3D%3D|Mouser         |
-|0.91" OLED Graphic 128x32   |The display of this macropad; im going to try to make it log recent inputs|1       |3.9             |https://www.displaymodule.com/products/0-91-inch-oled-graphic-display-128x32-with-i2c|DisplayModule  |
+|0.91" OLED Graphic 128x32   |The display of this macropad; im going to try to make it log recent inputs|1       |3.9            |https://www.amazon.com/gp/product/B079BN2J8V/ref=ox_sc_act_title_1?smid=A1N6DLY3NQK2VM&psc=1|Amazon  |
 |SEEEDUINO XIAO              |The microcontroller of this macropad                                      |1       |5.4             |https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010328/11506471|Digikey        |
 |1N4148                      |Preventing ghosting in the keyboard matrix                                |6       |0.6             |https://www.digikey.com/en/products/detail/onsemi/1N4148/458603                      |Digikey        |
 |EC11E15244G1                |Changing volume                                                           |1       |4.63            |https://www.digikey.com/en/products/detail/alps-alpine/EC11E15244G1/21721550         |Digikey        |
