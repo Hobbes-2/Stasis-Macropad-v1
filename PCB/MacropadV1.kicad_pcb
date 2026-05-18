@@ -403,6 +403,278 @@
 			)
 		)
 	)
+	(footprint "KicadMods:SSD1306-0.91-OLED-4pin-128x32"
+		(layer "F.Cu")
+		(uuid "2887d209-9907-421c-81ad-9c2fb9794b7f")
+		(at 63.115 76.95 90)
+		(property "Reference" "J1"
+			(at 1.9 5.91 0)
+			(layer "F.SilkS")
+			(uuid "ee0a4ec1-4a5f-46ed-b336-722a29d0eeaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 18.5 13.999999 90)
+			(layer "F.Fab")
+			(uuid "b3ec68ea-f195-40e1-b7de-5ac262e29835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ede7fe-ea7a-4497-886e-e7cba22c7de8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72bee41b-9e1d-4084-8c4a-381c93e739f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/22e4cb76-d791-4a9e-ad46-63d6e2dccb2c")
+		(sheetname "/")
+		(sheetfile "MacropadV1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 38 0)
+			(end 0 0)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58aea3d2-e684-4271-8f1b-d71d6101a3c3")
+		)
+		(fp_line
+			(start 33 0)
+			(end 33 12)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98152ccf-4337-4e8f-b31a-754d262374cc")
+		)
+		(fp_line
+			(start 3.5 0)
+			(end 3.5 12)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2589f89-23c9-4227-9e7a-23d4c29b28f9")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0 11.999999)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0f1692d-10fa-488e-9e29-30a8c2586d27")
+		)
+		(fp_line
+			(start 0 11.999999)
+			(end 38 12)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "070f54cb-f21b-4c5e-98de-ebfbc8d80205")
+		)
+		(fp_line
+			(start 38 12)
+			(end 38 0)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a53ee0fd-5f45-4223-bd78-07e7b2a051a9")
+		)
+		(fp_line
+			(start 38 0)
+			(end 0 0)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1982e0b9-9ce2-4947-afd4-200ba2c1e47f")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0 11.999999)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc77565f-47f4-4f21-8aa1-200f9f650dc2")
+		)
+		(fp_line
+			(start 0 11.999999)
+			(end 38 12)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c671993-1cc7-4740-bb86-adec4504162e")
+		)
+		(fp_line
+			(start 38 12)
+			(end 38 0)
+			(stroke
+				(width 0.04)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e931557c-333c-4cb7-ba35-e8062a788d32")
+		)
+		(fp_text user "GND"
+			(at 34.5 2.19 0)
+			(layer "F.SilkS")
+			(uuid "071ed0f0-f474-454f-8c3a-794a2f179106")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "VCC"
+			(at 34.5 4.73 0)
+			(layer "F.SilkS")
+			(uuid "96918994-dba3-47ba-b12a-e018c6890ab9")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "OLED Panel"
+			(at 19 6 90)
+			(layer "F.SilkS")
+			(uuid "6b4ebc00-4257-4e56-8528-a0113b1d822b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "SCL"
+			(at 34.5 7.27 0)
+			(layer "F.SilkS")
+			(uuid "1a2160b7-1c3b-4ddf-841c-e8eb4c0e1e67")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "SDA"
+			(at 34.499999 9.81 0)
+			(layer "F.SilkS")
+			(uuid "c118343d-23e0-4b9c-9efa-d2471f59a1fb")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 36.5 2.19 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "167faf12-a478-4840-90f6-c3641bc720d3")
+		)
+		(pad "2" thru_hole oval
+			(at 36.5 4.730001 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J1-Pin_2)")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
+			(uuid "5ea41048-74a1-4287-8b06-d982fd033284")
+		)
+		(pad "3" thru_hole oval
+			(at 36.5 7.27 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "7081837e-a2b7-4443-8b05-f2dc0442bc5c")
+		)
+		(pad "4" thru_hole oval
+			(at 36.5 9.81 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "VCC")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "9ea85066-6816-44c7-ba58-2a5788fbe771")
+		)
+		(embedded_fonts no)
+		(model "/home/kiko/Downloads/Kicad3D Models/ER_OLEDM0.91_1x-I2C-new.step"
+			(offset
+				(xyz 36.5 -2.2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "29064f6f-d238-4d3b-a926-f668ace2a1af")
@@ -1484,278 +1756,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "KicadMods:SSD1306-0.91-OLED-4pin-128x32"
-		(layer "F.Cu")
-		(uuid "861ebba7-1062-4756-892d-7ef7aa18b6e6")
-		(at 63.08 76.95 90)
-		(property "Reference" "J1"
-			(at 1.9 5.91 0)
-			(layer "F.SilkS")
-			(uuid "1c52cc79-6df1-497f-aea4-aaa79f980e25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 18.5 13.999999 90)
-			(layer "F.Fab")
-			(uuid "04a327e5-f815-41ff-a550-c3592ef2af02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "698f4a99-6680-49d5-8f17-1ee94a43f4fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c8ab94f-f949-4ad7-b317-b530754a8e32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/22e4cb76-d791-4a9e-ad46-63d6e2dccb2c")
-		(sheetname "/")
-		(sheetfile "MacropadV1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 38 0)
-			(end 0 0)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f50d0d7-57d7-4cff-bc09-bf35953b3587")
-		)
-		(fp_line
-			(start 33 0)
-			(end 33 12)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9fed60da-74e6-4175-a62b-ac13ba7daa68")
-		)
-		(fp_line
-			(start 3.5 0)
-			(end 3.5 12)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a4cbe0d-848a-440d-87f9-7e484ed480c3")
-		)
-		(fp_line
-			(start 0 0)
-			(end 0 11.999999)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "20a79460-3635-4e0d-81af-d772c5e0a467")
-		)
-		(fp_line
-			(start 0 11.999999)
-			(end 38 12)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75252e38-7a96-41ab-9791-353bfa7e61d8")
-		)
-		(fp_line
-			(start 38 12)
-			(end 38 0)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6495f3d8-8a4f-4f06-a5b3-123b8e0058ba")
-		)
-		(fp_line
-			(start 38 0)
-			(end 0 0)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3c8005b2-f1c9-474c-b096-355b85bb4628")
-		)
-		(fp_line
-			(start 0 0)
-			(end 0 11.999999)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "45a06045-4d71-4448-87f0-e1633d7a99de")
-		)
-		(fp_line
-			(start 0 11.999999)
-			(end 38 12)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a03e684e-1c1c-4219-a33d-2dc697e371d9")
-		)
-		(fp_line
-			(start 38 12)
-			(end 38 0)
-			(stroke
-				(width 0.04)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a0b85e15-1441-4090-9bb0-b4a3f882967a")
-		)
-		(fp_text user "GND"
-			(at 34.5 2.19 0)
-			(layer "F.SilkS")
-			(uuid "728e2db9-6be9-46fa-9e20-89c211581dc1")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "VCC"
-			(at 34.5 4.73 0)
-			(layer "F.SilkS")
-			(uuid "d8afa679-026e-45a2-8f31-04e61f77802d")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "OLED Panel"
-			(at 19 6 90)
-			(layer "F.SilkS")
-			(uuid "5d4ee97d-f2c8-47c8-8247-4836c5a2b73e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "SCL"
-			(at 34.5 7.27 0)
-			(layer "F.SilkS")
-			(uuid "d2d676f2-8b0c-4a2e-bc21-b771532656be")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "SDA"
-			(at 34.499999 9.81 0)
-			(layer "F.SilkS")
-			(uuid "1b9d7bac-5341-4215-8ac1-08f29724da3c")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 36.5 2.19 90)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "f6aff149-f5ff-4730-8529-312c6de9c14f")
-		)
-		(pad "2" thru_hole oval
-			(at 36.5 4.730001 90)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J1-Pin_2)")
-			(pinfunction "Pin_2_2")
-			(pintype "passive")
-			(uuid "abf09651-e445-4db5-b3c4-b04ec05ef6f0")
-		)
-		(pad "3" thru_hole oval
-			(at 36.5 7.27 90)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "Pin_3_3")
-			(pintype "passive")
-			(uuid "d8913b18-196c-4283-acb4-318378cc0030")
-		)
-		(pad "4" thru_hole oval
-			(at 36.5 9.81 90)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "VCC")
-			(pinfunction "Pin_4_4")
-			(pintype "passive")
-			(uuid "48a7320c-7668-4b3c-9e9e-893393c5ade2")
-		)
-		(embedded_fonts no)
-		(model "kicad-embed://SSD1306_OLED-0.91-128x32.step"
-			(offset
-				(xyz 0.5 -0.25 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)
