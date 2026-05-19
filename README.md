@@ -1,6 +1,6 @@
 Stasis Macropad (v1)
 
-My first PCB, as well as first project for stasis.
+My first PCB, as well as first project for forge. (Originally planned to be submitted to Stasis, hence the name)
 
 A basic macropad with:
 6 keys,
@@ -11,7 +11,7 @@ This project is meant both as a useful tool for me to use (i might try using it 
 The keys are arranged in a matrix, and the display and rotary encoder are wired in seprately (from the matrix). The microcontroller im using ([XIAO-SEEEDUINO](https://wiki.seeedstudio.com/Seeeduino-XIAO/)) has USB-C connection for power. The firmware is written in python with KMK. 
 
 3D render of the pcb
-<img width="572" height="549" alt="Screenshot_20260422_045616" src="https://github.com/user-attachments/assets/ce6af854-f952-4dcb-b8df-3655c85ffaf1" />
+<img width="590" height="556" alt="Screenshot_20260518_123826" src="https://github.com/user-attachments/assets/2f21e1a7-3dea-4f72-90b7-37a05b850e93" />
 
 Schematics and layout
 <img width="753" height="731" alt="Screenshot_20260422_045628" src="https://github.com/user-attachments/assets/e5d9cc30-3aba-4b55-bddf-f7bedcafc28f" />
