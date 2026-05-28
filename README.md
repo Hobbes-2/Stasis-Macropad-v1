@@ -21,6 +21,10 @@ Case
 <img width="801" height="747" alt="Screenshot_20260426_073638" src="https://github.com/user-attachments/assets/41b7eb34-df41-4cea-9f26-3c4e7f0ce77e" />
 <img width="897" height="725" alt="Screenshot_20260426_073651" src="https://github.com/user-attachments/assets/20bc1346-0fd1-4718-9b8e-e6a0ebaf10fd" />
 
+All together
+<img width="714" height="568" alt="Screenshot_20260527_120235" src="https://github.com/user-attachments/assets/f6a7071a-c5d1-49f5-bd52-59fcc79ff77f" />
+
+
 Keys
 <img width="895" height="693" alt="Screenshot_20260426_073731" src="https://github.com/user-attachments/assets/3f15b144-956f-4065-b044-f676744a2a15" />
 
