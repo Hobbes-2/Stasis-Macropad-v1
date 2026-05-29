@@ -15,7 +15,7 @@ The keys are arranged in a matrix, and the display and rotary encoder are wired 
 
 Schematics and layout
 <img width="753" height="731" alt="Screenshot_20260422_045628" src="https://github.com/user-attachments/assets/e5d9cc30-3aba-4b55-bddf-f7bedcafc28f" />
-<img width="1150" height="524" alt="Screenshot_20260408_122429" src="https://github.com/user-attachments/assets/e2feafab-5365-4f10-aa40-a9d5405c9b16" />
+<img width="1021" height="496" alt="Screenshot_20260528_115715" src="https://github.com/user-attachments/assets/320f88a2-5da1-46ce-ac25-4e9d47916bd2" />
 
 Case
 <img width="801" height="747" alt="Screenshot_20260426_073638" src="https://github.com/user-attachments/assets/41b7eb34-df41-4cea-9f26-3c4e7f0ce77e" />
