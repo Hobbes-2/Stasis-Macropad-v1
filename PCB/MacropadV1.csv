@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"D1,D2,D3,D4,D5,D6","6","D","","","","Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm","~"
+"J1","1","Conn_01x04","","","","Connector:FanPinHeader_1x04_P2.54mm_Vertical","~"
+"R1,R2","2","4.7k","","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"SW1,SW2,SW3,SW4,SW5,SW6","6","SW_Push","","","","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB","~"
+"SW10","1","RotaryEncoder_Switch","","","","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","~"
+"U1","1","MOUDLE-SEEEDUINO-XIAO","","","","footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM",""
