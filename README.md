@@ -31,7 +31,7 @@ Keys
 BOM
 |Name                        |Purpose                                                                   |Quantity|Total Cost (USD)|Link                                                                                 |Distributor    |
 |----------------------------|--------------------------------------------------------------------------|--------|----------------|-------------------------------------------------------------------------------------|---------------|
-|PCB                         |The actual pcb                                                            |1       |2               |                                                                                     |JLCPCB         |
+|PCB                         |The actual pcb                                                            |1       |5.12            |                                                                                     |JLCPCB         |
 |3d Printed Case & Keys      |The case and keys                                                         |1       |7               |                                                                                     |Printing Legion|
 |Cherry MX Switch (MX1A-L1NN)|The keys of this macropad                                                 |6       |6               |https://www.mouser.com/ProductDetail/CHERRY/MX1A-L1NN?qs=F5EMLAvA7IDlALNAurZTXA%3D%3D|Mouser         |
 |0.91" OLED Graphic 128x32   |The display of this macropad; im going to try to make it log recent inputs|1       |3.9            |https://www.amazon.com/gp/product/B079BN2J8V/ref=ox_sc_act_title_1?smid=A1N6DLY3NQK2VM&psc=1|Amazon  |
